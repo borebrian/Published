@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.brighten.statussaver">
+    package="com.brighten.statuspro">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name="com.brighten.statussaver.MyApplication"
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/download"
         android:label="@string/app_name"
@@ -17,7 +17,7 @@
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-5747999756430076~3231184290"/>
         <activity
-            android:name="com.brighten.statussaver.home.HomeActivity"
+            android:name=".home.HomeActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -27,9 +27,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.brighten.statussaver.video.VideoActivity" />
+        <activity android:name=".video.VideoActivity" />
         <activity
-            android:name="com.brighten.statussaver.image.ImageViewActivity"
+            android:name=".image.ImageViewActivity"
             android:label="@string/title_activity_image_view"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
