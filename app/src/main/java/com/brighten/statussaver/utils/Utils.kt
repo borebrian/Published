@@ -1,4 +1,4 @@
-package com.borebrian.statussaver.utils
+package com.brighten.statussaver.utils
 
 import android.content.ContentResolver
 import android.content.Context
@@ -18,7 +18,6 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.RadioButton
 import android.widget.TextView
-import com.borebrian.statussaver.BuildConfig
 import java.io.File
 
 class Utils {

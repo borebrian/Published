@@ -1,4 +1,4 @@
-package com.borebrian.statussaver.utils
+package com.brighten.statussaver.utils
 
 
 import android.app.AlertDialog
@@ -8,8 +8,8 @@ import android.view.LayoutInflater
 import android.view.View
 
 
-import com.borebrian.statussaver.MyApplication.Companion.fontRegular
-import com.borebrian.statussaver.R
+import com.brighten.statussaver.MyApplication.Companion.fontRegular
+import com.brighten.statussaver.R
 import kotlinx.android.synthetic.main.layout_my_alert.view.*
 
 class MyAlert(private var context: Context) {

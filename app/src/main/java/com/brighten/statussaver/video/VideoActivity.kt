@@ -1,4 +1,4 @@
-package com.borebrian.statussaver.video
+package com.brighten.statussaver.video
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -19,21 +19,18 @@ import com.google.android.exoplayer2.trackselection.TrackSelectionArray
 import com.google.android.exoplayer2.upstream.DefaultBandwidthMeter
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory
 import com.google.android.exoplayer2.util.Util
-import com.borebrian.statussaver.R
-import com.borebrian.statussaver.home.HomeActivity
-import com.borebrian.statussaver.utils.Utils
+import com.brighten.statussaver.R
+import com.brighten.statussaver.home.HomeActivity
+import com.brighten.statussaver.utils.Utils
 import com.google.android.gms.ads.*
 import com.google.android.gms.ads.formats.MediaView
 import com.google.android.gms.ads.formats.UnifiedNativeAd
 import com.google.android.gms.ads.formats.UnifiedNativeAdView
 import com.google.android.gms.ads.reward.RewardedVideoAd
 import kotlinx.android.synthetic.main.activity_video.*
-import kotlinx.android.synthetic.main.content_image_view.*
 import kotlinx.android.synthetic.main.content_image_view.addV
-import kotlinx.android.synthetic.main.layout_video_controller.*
 import org.apache.commons.io.FileUtils
 import java.io.File
-import kotlin.concurrent.fixedRateTimer
 
 
 class VideoActivity : AppCompatActivity(), Player.EventListener {

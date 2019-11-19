@@ -1,4 +1,4 @@
-package com.borebrian.statuspro
+package com.brighten.statuspro
 
 import org.junit.Test
 

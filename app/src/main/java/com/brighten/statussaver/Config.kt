@@ -1,4 +1,4 @@
-package com.borebrian.statussaver
+package com.brighten.statussaver
 
 class Config {
 

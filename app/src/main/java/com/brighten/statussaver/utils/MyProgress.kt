@@ -1,4 +1,4 @@
-package com.borebrian.statussaver.utils
+package com.brighten.statussaver.utils
 
 import android.app.Activity
 import android.view.LayoutInflater
@@ -8,7 +8,7 @@ import android.view.ViewGroup
 
 import kotlinx.android.synthetic.main.layout_my_progress.view.*
 import com.bumptech.glide.Glide
-import com.borebrian.statussaver.R
+import com.brighten.statussaver.R
 class MyProgress(private val context: Activity) {
 
     private lateinit var progressView: View

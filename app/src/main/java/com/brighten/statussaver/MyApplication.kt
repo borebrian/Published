@@ -1,4 +1,4 @@
-package com.borebrian.statussaver
+package com.brighten.statussaver
 
 import android.app.Application
 import android.graphics.Typeface

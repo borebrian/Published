@@ -1,4 +1,4 @@
-package com.borebrian.statussaver.home
+package com.brighten.statussaver.home
 
 import android.app.Activity
 import android.app.ActivityOptions
@@ -14,11 +14,10 @@ import android.view.ViewGroup
 import android.view.animation.AlphaAnimation
 import android.widget.Toast
 import com.bumptech.glide.Glide
-import com.borebrian.statussaver.R
-import com.borebrian.statussaver.image.ImageViewActivity
-import com.borebrian.statussaver.utils.Utils
-import com.borebrian.statussaver.video.VideoActivity
-import kotlinx.android.synthetic.main.content_image_view.view.*
+import com.brighten.statussaver.R
+import com.brighten.statussaver.image.ImageViewActivity
+import com.brighten.statussaver.utils.Utils
+import com.brighten.statussaver.video.VideoActivity
 import kotlinx.android.synthetic.main.layout_status_item.view.*
 import org.apache.commons.io.FileUtils
 import java.io.File

@@ -1,4 +1,4 @@
-package com.borebrian.statussaver.home
+package com.brighten.statussaver.home
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -22,13 +22,13 @@ import android.support.v7.widget.GridLayoutManager
 import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
-import com.borebrian.statussaver.BuildConfig
-import com.borebrian.statussaver.R
-import com.borebrian.statussaver.utils.MyAlert
-import com.borebrian.statussaver.utils.MyProgress
-import com.borebrian.statussaver.utils.Utils
-import com.borebrian.statussaver.utils.Utils.Companion.WHATSAPP_STATUSES_LOCATION
-import com.borebrian.statussaver.utils.Utils.Companion.WHATSAPP_STATUSES_SAVED_LOCATION
+import com.brighten.statussaver.BuildConfig
+import com.brighten.statussaver.R
+import com.brighten.statussaver.utils.MyAlert
+import com.brighten.statussaver.utils.MyProgress
+import com.brighten.statussaver.utils.Utils
+import com.brighten.statussaver.utils.Utils.Companion.WHATSAPP_STATUSES_LOCATION
+import com.brighten.statussaver.utils.Utils.Companion.WHATSAPP_STATUSES_SAVED_LOCATION
 import com.google.android.gms.ads.*
 import com.google.android.gms.ads.reward.RewardedVideoAd
 import kotlinx.android.synthetic.main.activity_home.*
@@ -309,7 +309,7 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 showAbout()
             }
             R.id.nav_rate -> {
-               /* rateApp()*/
+                rateApp()
             }
             R.id.nav_help -> {
                 showHelp()

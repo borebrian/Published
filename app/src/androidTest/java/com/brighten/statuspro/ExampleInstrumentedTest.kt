@@ -1,4 +1,4 @@
-package com.borebrian.statuspro
+package com.brighten.statuspro
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
